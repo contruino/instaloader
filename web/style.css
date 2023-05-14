@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color:  black
+}
+.box {
+    margin: 100px auto;
+    text-align: center;
+    background-color:  rgb(54, 161, 152);
+    font-family: Arial, "Helvetica Neue",Helvetica, sans-serif;
+    width: 300px;
+    padding: 20px;
+}
+#nick, #btn{
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(42, 94, 77);
+    color: hwb(hue rgb(40, 110, 133) rgb(87, 105, 10));
+    outline:0;
+    border: 0;
+    border-bottom: 2px solid rgb(212, 174, 102);
+    font-size: 1.2em;
+}
+#btn {
+cursor: pointer;
+width: 150px;
+text-transform: uppercase;
+}
+#btn:hover{
+    color:rgb(96, 40, 188);
+    background-color: rgb(37, 218, 79);
+}
